@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header class="title">
-      <h1>Healhty<span>Carely</span></h1>
-      <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#">Doctor</a>
-        <a href="#">Services</a>
-        <a href="#">Review</a>
-        <a href="#">Sign In</a>
-        <button type="button">Sign In</button>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo">Healhty<span сlass="logo__item">Carely</span></h2>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Doctor</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Review</a>
+            </li>
+          </ul>
+          <div class="navbar__buttons">
+            <button class="button button_link" type="button">Sign In</button>
+            <button class="button button_primary" type="button">Sign Up</button>
+          </div>
+          <button class="button button_menu" style="display: none;"></button>
       </nav>
-      <div>
+    </header>
+    <main class="page">
+      <section class="section">
         <h3>Medical Care Now Simplified For Everyone</h3>
         <p>
           Health carely is a new way to get health insurance quotes. We offer
@@ -32,7 +48,8 @@
           <p>Skin Specialist</p>
           <p>Make Schedule</p>
         </div>
-      </div>
-    </header>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </body>
 </html>

@@ -1,0 +1,85 @@
+:root {
+    --base-color: #4D77FF;
+    --color-text: #696969;
+    --color-heading: #121212;
+    --font-family: font-family: 'Manrope', sans-serif;
+    --button-bg: var(--base-color);
+    --button-color: #fff;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+
+.button {
+    border: 0;
+    box-shadow: none;
+    background: none;
+    font-family: var(--font-family);
+    line-height: 20px;
+    font-weight: 500;
+}
+.button_rounded {
+    border-radius: 10px;
+}
+.button_primary {
+    padding: 0 36px;
+    height: 52px;
+    line-height: 50px;
+    background-color: var(--button-bg);
+    color: var(--button-color);
+    border-radius: 10px;
+}
+.button_link {
+    color: var(--color-heading);
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu__item {
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu__link {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-heading)
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 144px;
+    padding: 40px 0;
+}
+.page {
+    padding-top: 144px;
+}
+.logo {
+    margin: 0;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: var(--color-heading)
+}
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.navbar__buttons {
+    margin: 0 0 0 auto;
+}

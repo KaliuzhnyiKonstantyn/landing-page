@@ -1,3 +1,5 @@
+@font-face
+
 :root {
     --base-color: #4D77FF;
     --color-text: #696969;
@@ -7,9 +9,6 @@
     --button-color: #fff;
 }
 
-
-
-
 body {
     margin: 0;
     font-family: var(--font-family);
@@ -17,7 +16,58 @@ body {
     letter-spacing: 0.03em;
 }
 
+.header {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 144px;
+    padding: 0;
+    margin: 0;
+}
 
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: var(--color-heading)
+}
+
+.logo__item {
+    color: var(--base-color)
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu__link {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-heading)
+}
+
+.navbar__buttons {
+    margin: 0 0 0 auto;
+}
 
 .button {
     border: 0;
@@ -27,9 +77,15 @@ body {
     line-height: 20px;
     font-weight: 500;
 }
+
 .button_rounded {
     border-radius: 10px;
 }
+
+.button_link {
+    color: var(--color-heading);
+}
+
 .button_primary {
     padding: 0 36px;
     height: 52px;
@@ -38,48 +94,35 @@ body {
     color: var(--button-color);
     border-radius: 10px;
 }
-.button_link {
-    color: var(--color-heading);
-}
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.menu__item {
-    display: inline-block;
-    margin-left: 40px;
-}
-.menu__link {
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--color-heading)
-}
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 144px;
-    padding: 40px 0;
-}
+
 .page {
     padding-top: 144px;
 }
-.logo {
-    margin: 0;
-    font-size: 24px;
-    line-height: 33px;
-    font-weight: 700;
-    color: var(--color-heading)
-}
-.navbar {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-}
-.navbar__buttons {
-    margin: 0 0 0 auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

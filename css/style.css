@@ -190,6 +190,12 @@ body {
   margin-top: 10px;
 }
 
+.section_solution {
+  width: 1238px;
+  height: 350px;
+  margin: auto;
+}
+
 .card_solutions {
   display: flex;
   justify-content: center;
@@ -209,4 +215,8 @@ body {
   font-size: 12px;
   line-height: 16px;
   color: #696969;
+}
+
+.card_link {
+  text-decoration: none;
 }

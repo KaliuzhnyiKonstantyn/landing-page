@@ -13,57 +13,148 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar container">
+      <div class="header__container container">
         <h2 class="logo">Healhty<span class="logo__item">Carely</span></h2>
-        <ul class="menu">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Home</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Doctor</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Services</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Review</a>
-          </li>
-        </ul>
-        <div class="navbar__buttons">
-          <button class="button button_link" type="button">Sign In</button>
-          <button class="button button_primary" type="button">Sign Up</button>
+        <nav class="navbar">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link_active" href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Doctor</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Review</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button class="button button_simple" type="button">Sign In</button>
+          <button
+            class="button button_primary button_sm button_rounded"
+            type="button"
+          >
+            Sign Up
+          </button>
+          <button class="button button_menu" style="display: none"></button>
         </div>
-        <button class="button button_menu" style="display: none"></button>
-      </nav>
+      </div>
     </header>
     <main class="page">
-      <section class="section">
+      <!--section-->
+
+      <section class="section section_main">
         <div class="container">
-          <h1 class="main_text">
+          <h1 class="text_main main_big">
             Medical Care Now Simplified For
             <span class="text_color">Everyone</span>
           </h1>
-          <p class="text_propose">
+          <p class="text_propose text_small">
             Health carely is a new way to get health insurance quotes. We offer
             tools similar to those provided by insurance companies for free and
             prices are based on donations and not restrictive health plan
             networks.
           </p>
           <img src="./img/header/female doctor_big.png" alt="" />
-          <button class="button button_primary" type="button">
+          <button
+            class="button button_primary button_md button_rounded"
+            type="button"
+          >
             Contact Us
           </button>
-          <div class="card_profile_doctor">
+          <div class="card_profile card_doctor">
             <img
-              src="./img/header/female doctor_small.png"
+              src="./img/header/female_doctor_small.png"
               alt="Dr. Shimanta"
             />
             <p>Skin Specialist</p>
-            <p>Make Schedule</p>
+            <button
+              class="button button_primary button_xs button_rounded"
+              type="button"
+            >
+              Make Schedule
+            </button>
           </div>
         </div>
       </section>
     </main>
+
+    <!--section_2-->
+
+    <section class="section_solution fast_solution">
+      <h2 class="solution text_sm">Fast Solutions</h2>
+      <h3 class="solution text_bg">step by step to get your solutions</h3>
+      <div class="card card_solutions">
+        <!--card_1-->
+
+        <div class="card_info info_first">
+          <a href="#" class="card_link">
+            <img
+              class="card_img"
+              src="./img/card_img/Search.svg"
+              alt="Check health complaints"
+            />
+            <h3 class="card_title">Check health complaints</h3>
+            <p class="card_p">
+              Check the disease so you can easily choose the right specialist
+            </p>
+          </a>
+        </div>
+
+        <!--card_2-->
+
+        <div class="card_info info_second">
+          <a href="#" class="card_link">
+            <img
+              class="card_img"
+              src="./img/card_img/Profile.svg"
+              alt="Choose doctor Specialist"
+            />
+            <h3 class="card_title">Choose doctor Specialist</h3>
+            <p class="card_p">
+              Choose a specialist according to your disease complaints
+            </p>
+          </a>
+        </div>
+
+        <!--card_3-->
+
+        <div class="card_info info_tree">
+          <a href="#" class="card_link">
+            <img
+              class="card_img"
+              src="./img/card_img/Calendar.svg"
+              alt="Make a Schedule"
+            />
+            <h3 class="card_title">Make a Schedule</h3>
+            <p class="card_p">
+              Make a schedule with the doctor concerned so you can start the
+              examination
+            </p>
+          </a>
+        </div>
+
+        <!--card_4-->
+
+        <div class="card_info info_four">
+          <a href="#" class="card_link">
+            <img
+              class="card_img"
+              src="./img/card_img/Star.svg"
+              alt="Get your Solutions"
+            />
+            <h3 class="card_title">Get your Solutions</h3>
+            <p class="card_p">
+              After conducting an examination with a specialist we can help find
+              the right healing method
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
     <footer class="footer"></footer>
   </body>
 </html>

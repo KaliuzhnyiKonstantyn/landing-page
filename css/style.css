@@ -173,17 +173,17 @@ body {
   color: #4d77ff;
 }
 
-.solution {
+.section_solution {
   text-align: center;
 }
 
-.text_sm {
+.solution__text_sm {
   font-size: 14px;
   line-height: 20px;
   color: #4d77ff;
   margin-bottom: 0;
 }
-.text_bg {
+.solution__text_bg {
   font-size: 32px;
   line-height: 40px;
   color: #121212;
@@ -202,7 +202,7 @@ body {
   align-items: center;
 }
 
-.card_info {
+.card__info {
   width: 287px;
   height: 229px;
   font-weight: 700;

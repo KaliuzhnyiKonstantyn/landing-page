@@ -205,13 +205,13 @@ body {
   color: #121212;
 }
 
-.card_p {
+.card__text {
   font-size: 12px;
   line-height: 16px;
   color: #696969;
 }
 
-.card_link {
+.card__link {
   text-decoration: none;
 }
 

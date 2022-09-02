@@ -177,23 +177,17 @@ body {
   text-align: center;
 }
 
-.solution__text_sm {
+.solution_text-sm {
   font-size: 14px;
   line-height: 20px;
   color: #4d77ff;
   margin-bottom: 0;
 }
-.solution__text_bg {
+.solution_text-bg {
   font-size: 32px;
   line-height: 40px;
   color: #121212;
   margin-top: 10px;
-}
-
-.section_solution {
-  width: 1238px;
-  height: 350px;
-  margin: auto;
 }
 
 .card_solutions {

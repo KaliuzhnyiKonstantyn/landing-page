@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing</title>
+    <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
@@ -14,7 +15,7 @@
   <body>
     <header class="header">
       <div class="header__container container">
-        <h2 class="logo">Healhty<span class="logo__item">Carely</span></h2>
+        <h2 class="logo title">Healhty<span class="logo__item">Carely</span></h2>
         <nav class="navbar">
           <ul class="menu">
             <li class="menu__item">
@@ -89,76 +90,95 @@
 
     <!--section_2-->
 
-    <section class="section section_solution">
+    <section class="section section_solution container">
       <h2 class="solution_text-sm">Fast Solutions</h2>
       <h3 class="solution_text-bg">step by step to get your solutions</h3>
-      <div class="card_solutions">
-        <!--card_1-->
-
-        <div class="card__info">
-          <a href="#" class="card__link">
-            <img
-              class="card__img"
-              src="./img/card_img/Search.svg"
-              alt="Check health complaints"
-            />
-            <h3 class="card__title">Check health complaints</h3>
-            <p class="card__text">
-              Check the disease so you can easily choose the right specialist
-            </p>
-          </a>
+      <div class="row">
+        <div class="col-xl-3">
+          <!--card_1-->
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body">
+              <span class="card__icon">
+                <i class="icon icon_md icon_search"></i>
+              </span>
+              <h4 class="card__title card__title_mb title">Check health complaints</h4>
+              <p class="card__text">Check the disease so you can
+                easily choose the right specialist</p>
+            </div>
+          </div>
         </div>
-
-        <!--card_2-->
-
-        <div class="card__info">
-          <a href="#" class="card__link">
-            <img
-              class="card__img"
-              src="./img/card_img/Profile.svg"
-              alt="Choose doctor Specialist"
-            />
-            <h3 class="card__title">Choose doctor Specialist</h3>
-            <p class="card__text">
-              Choose a specialist according to your disease complaints
-            </p>
-          </a>
+        <div class="col-xl-3">
+          <!--card_1-->
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body">
+              <span class="card__icon">
+                <i class="icon icon_md icon_profile"></i>
+              </span>
+              <h4 class="card__title card__title_mb title">Check health complaints</h4>
+              <p class="card__text">Check the disease so you can
+                easily choose the right specialist</p>
+            </div>
+          </div>
+        
         </div>
-
-        <!--card_3-->
-
-        <div class="card__info">
-          <a href="#" class="card__link">
-            <img
-              class="card__img"
-              src="./img/card_img/Calendar.svg"
-              alt="Make a Schedule"
-            />
-            <h3 class="card__title">Make a Schedule</h3>
-            <p class="card__text">
-              Make a schedule with the doctor concerned so you can start the
-              examination
-            </p>
-          </a>
+        <div class="col-xl-3">
+          <!--card_1-->
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body">
+              <span class="card__icon">
+                <i class="icon icon_md icon_calendar"></i>
+              </span>
+              <h4 class="card__title card__title_mb title">Check health complaints</h4>
+              <p class="card__text">Check the disease so you can
+                easily choose the right specialist</p>
+            </div>
+          </div>
+        
         </div>
-
-        <!--card_4-->
-
-        <div class="card__info">
-          <a href="#" class="card__link">
-            <img
-              class="card__img"
-              src="./img/card_img/Star.svg"
-              alt="Get your Solutions"
-            />
-            <h3 class="card__title">Get your Solutions</h3>
-            <p class="card__text">
-              After conducting an examination with a specialist we can help find
-              the right healing method
-            </p>
-          </a>
+        <div class="col-xl-3">
+          <!--card_1-->
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body">
+              <span class="card__icon">
+                <i class="icon icon_md icon_star"></i>
+              </span>
+              <h4 class="card__title card__title_mb title">Check health complaints</h4>
+              <p class="card__text">Check the disease so you can
+                easily choose the right specialist</p>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <section class="section container">
+      <div class="row row-center">
+        <div class="col-xl-3">
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body text-center">
+              <span class="card__heading title">900+</span>
+              <h4 class="card__title title">Verified Specialist</h4>
+              <p class="card__text">Highly Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body text-center">
+              <h4 class="card__title title">Verified Specialist</h4>
+              <p class="card__text">Highly Verified</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="card card_brand card_shadow-sm">
+            <div class="card__body text-center">
+              <h4 class="card__title title">Verified Specialist</h4>
+              <p class="card__text">Highly Verified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
     <footer class="footer"></footer>
   </body>

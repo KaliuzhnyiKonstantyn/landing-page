@@ -32,7 +32,7 @@ body {
   font-family: var(--font-family);
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--color-text)
+  color: var(--color-text);
 }
 
 * {
@@ -155,6 +155,7 @@ body {
   line-height: 50px;
   font-size: 16px;
 }
+
 .icon {
   display: inline-block;
   vertical-align: middle;
@@ -162,14 +163,17 @@ body {
   background-position: center;
   background-size: contain;
 }
+
 .icon_md {
   width: 40px;
   height: 40px;
 }
+
 .icon_sm {
   width: 24px;
   height: 24px;
 }
+
 .icon_search {
   background-image: url(../img/card_img/Search.svg);
 }
@@ -192,14 +196,15 @@ body {
   background-image: url(../img/card_img/twitter.svg);
 }
 
-
 .page {
   padding-top: 120px;
 }
+
 .section {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+
 .section_solution {
   padding-top: 90px;
   padding-bottom: 100px;
@@ -223,23 +228,24 @@ body {
   color: #4d77ff;
 }
 
-
 .solution_text-sm {
   font-size: 14px;
   line-height: 20px;
   color: #4d77ff;
   margin-bottom: 0;
+  text-align: center;
 }
 .solution_text-bg {
   font-size: 32px;
   line-height: 40px;
   color: #121212;
   margin-top: 10px;
+  text-align: center;
 }
 
 .card {
   padding: 18px 30px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   font-size: 12px;
 }
@@ -258,12 +264,12 @@ body {
   flex-direction: column;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-top: 3px solid var(--base-color)
+  border-top: 3px solid var(--base-color);
 }
 .card__title {
   margin: 0;
   font-size: 14px;
-  color: var(--color-heading)
+  color: var(--color-heading);
 }
 .card__title_mb {
   margin-bottom: 12px;
@@ -281,9 +287,8 @@ body {
 .card__heading {
   font-size: 32px;
   margin-bottom: 12px;
-  color: var(--color-heading)
+  color: var(--color-heading);
 }
-
 
 .info_first {
   margin-right: 30px;

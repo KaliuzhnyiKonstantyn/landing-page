@@ -215,6 +215,7 @@ body {
   line-height: 70px;
   width: 634px;
   margin-right: 100px;
+  color: #121212;
 }
 
 .text_propose {
@@ -271,7 +272,7 @@ body {
   font-size: 14px;
   color: var(--color-heading);
 }
-.card__title_mb {
+.card__title_md {
   margin-bottom: 12px;
 }
 .card__body {
